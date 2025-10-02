@@ -1,6 +1,7 @@
 import Navbar from "@/components/navbar"
 import Hero from "@/components/hero"
 import About from "@/components/about"
+import Portfolio from "@/components/portfolio";
 
 export default function Home() {
     return (
@@ -33,6 +34,8 @@ export default function Home() {
 
                 {/* About Section */}
                 <About />
+
+                <Portfolio />
             </div>
         </div>
     )
