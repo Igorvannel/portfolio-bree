@@ -1,3 +1,6 @@
+
+'use client'
+
 const Hero = () => {
   return (
     <div className="relative z-10 container mx-auto px-4 sm:px-8 lg:px-16 py-10 sm:py-16 lg:py-20">
@@ -49,14 +52,15 @@ const Hero = () => {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-6 sm:mt-8 lg:mt-[40px]">
             <button
-              className="bg-[#e9deff] text-[#1e0044] hover:bg-[#d2c5ea] font-semibold px-8 sm:px-10 lg:px-12 py-3 sm:py-4 rounded-full text-base sm:text-lg lg:text-xl transition-all shadow-lg w-full sm:w-auto"
-              style={{ fontFamily: "Montserrat, sans-serif" }}
+                onClick={() => window.open('/Portfolio FR.pdf', '_blank')}
+                className="bg-[#e9deff] text-[#1e0044] hover:bg-[#d2c5ea] font-semibold px-8 sm:px-10 lg:px-12 py-3 sm:py-4 rounded-full text-base sm:text-lg lg:text-xl transition-all shadow-lg w-full sm:w-auto"
+                style={{ fontFamily: "Montserrat, sans-serif" }}
             >
               Portfolio
             </button>
             <button
-              className="border-2 border-[#e9deff] text-[#e9deff] hover:text-white hover:bg-[#e9deff]/10 font-semibold px-8 sm:px-10 lg:px-12 py-3 sm:py-4 rounded-full text-base sm:text-lg lg:text-xl transition-all w-full sm:w-auto"
-              style={{ fontFamily: "Montserrat, sans-serif" }}
+                className="border-2 border-[#e9deff] text-[#e9deff] hover:text-white hover:bg-[#e9deff]/10 font-semibold px-8 sm:px-10 lg:px-12 py-3 sm:py-4 rounded-full text-base sm:text-lg lg:text-xl transition-all w-full sm:w-auto"
+                style={{ fontFamily: "Montserrat, sans-serif" }}
             >
               Me Contacter
             </button>
