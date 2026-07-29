@@ -123,3 +123,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Léger dézoom global du site (échelle ~92%) */
+html {
+  font-size: 92%;
+}

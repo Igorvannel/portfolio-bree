@@ -2,6 +2,8 @@ import Navbar from "@/components/navbar"
 import Hero from "@/components/hero"
 import About from "@/components/about"
 import Portfolio from "@/components/portfolio";
+import Journey from "@/components/journey";
+import Contact from "@/components/contact";
 
 export default function Home() {
     return (
@@ -21,21 +23,26 @@ export default function Home() {
 
             {/* Content */}
             <div className="relative z-10">
-                {/* Navigation */}
-                <div className="pt-6 pb-4">
-                    <Navbar />
-                </div>
+                {/* Navigation (fixed) */}
+                <Navbar />
+
+                {/* Spacer to offset the fixed navbar height */}
+                <div className="h-20 sm:h-24 lg:h-28"></div>
 
                 {/* Hero Section */}
                 <Hero />
 
                 {/* Separator */}
-                <div className="w-full h-px bg-gradient-to-r from-transparent via-[#d2c5ea]/30 to-transparent my-16 lg:my-24"></div>
+                <div className="w-full h-px bg-gradient-to-r from-transparent via-[#d2c5ea]/30 to-transparent my-12 lg:my-16"></div>
 
                 {/* About Section */}
                 <About />
 
                 <Portfolio />
+
+                <Journey />
+
+                <Contact />
             </div>
         </div>
     )
