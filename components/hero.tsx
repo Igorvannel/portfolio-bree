@@ -64,7 +64,7 @@ const Hero = () => {
               {t.hero.btnPortfolio}
             </a>
             <a
-              href="/CV_Washington_Brenda_UIUX_Designer.pdf"
+              href="/CV_Washington_Brenda UI_UX_designer_4.pdf"
               download
               className="bg-transparent border-2 border-[#B923FF] text-[#e9deff] hover:bg-[#B923FF]/10 font-semibold px-6 sm:px-8 py-2.5 sm:py-3 rounded-full text-sm sm:text-base lg:text-lg transition-all w-full sm:w-auto text-center"
               style={{ fontFamily: "Montserrat, sans-serif" }}
